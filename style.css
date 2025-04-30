@@ -47,6 +47,11 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
 }
 
 footer img {
@@ -57,6 +62,7 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
 }
 
 .image-container{
