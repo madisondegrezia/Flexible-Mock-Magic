@@ -3,11 +3,14 @@
   font-family: sans-serif;
   font-size: 20px;
 }
+
 .navbar {
-  width: 100vw;
+  width: 100%;
   background-color: #59d9a1;
   padding-left: 30px;
   padding-right: 10px;
+  display: flex; /* navbar is a row now */
+  justify-content: space-between;
 }
 
 .logo {
@@ -16,6 +19,7 @@
 
 .nav-links {
   list-style: none;
+  display: flex; /* nav-links is a row now */
 }
 
 .nav-item a {
@@ -87,6 +91,8 @@ footer {
   width: 100%;
   padding: 1rem;
   background-color: #59d9a1;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* CODE YOUR FLEXBOXES HERE */
